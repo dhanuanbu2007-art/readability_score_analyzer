@@ -1,6 +1,6 @@
-# Readability Score Analyzer
+# Readability Score Analyzer – Text and Speech Analysis
 
-## Project Overview
+## Project Description
 
 The Readability Score Analyzer is a text analysis application that evaluates the complexity of written content. It calculates readability scores and estimates the educational grade level required to understand the text, helping users assess how easy or difficult a passage is to read.
 
@@ -20,21 +20,30 @@ The Readability Score Analyzer is a text analysis application that evaluates the
 * Textstat
 * Natural Language Processing (NLP)
 
-## How It Works
+## Requirements
 
-1. The user enters a paragraph.
-2. The application analyzes the text structure.
-3. Words, sentences, syllables, and characters are counted.
-4. Readability scores and grade-level estimates are calculated.
-5. The application displays the analysis report.
-## Input
+* Google account
+* Internet connection
+* Google Colab
+* Text input
 
-An English paragraph entered by the user.
+## How to Run
 
-**Example:**
+1. Open Google Colab.
+2. Create a new notebook.
+3. Install the required libraries.
+4. Paste the application code into a code cell.
+5. Run the code.
+6. Open the Gradio application link.
+7. Enter a paragraph.
+8. Click the analyze button.
+9. View the readability report.
+
+## Sample Input
+
 "The sun is bright. I like to play outside. It is a beautiful day."
 
-## Output
+## Expected Output
 
 * **Readability Level:** Easy to Read
 * **Flesch Reading Ease Score:** Calculated score
@@ -43,6 +52,19 @@ An English paragraph entered by the user.
 
 The application generates a readability report based on the input text.
 
+## Project Workflow
+
+Text Input
+↓
+Text Processing
+↓
+Text Statistics Calculation
+↓
+Readability Score Calculation
+↓
+Grade-Level Estimation
+↓
+Display Analysis Report
 
 ## Applications
 
