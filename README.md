@@ -27,6 +27,22 @@ The Readability Score Analyzer is a text analysis application that evaluates the
 3. Words, sentences, syllables, and characters are counted.
 4. Readability scores and grade-level estimates are calculated.
 5. The application displays the analysis report.
+## Input
+
+An English paragraph entered by the user.
+
+**Example:**
+"The sun is bright. I like to play outside. It is a beautiful day."
+
+## Output
+
+* **Readability Level:** Easy to Read
+* **Flesch Reading Ease Score:** Calculated score
+* **Estimated Grade Level:** Calculated level
+* **Text Statistics:** Word count, sentence count, syllable count, and character count.
+
+The application generates a readability report based on the input text.
+
 
 ## Applications
 
